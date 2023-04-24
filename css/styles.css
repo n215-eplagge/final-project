@@ -729,15 +729,15 @@ nav .last {
 }
 
 .uae-1 {
-  background-image: url(../images/uae/uae-tour-01.jpg);
+  background-image: url(../images/uae/uae-tour-01.png);
 }
 
 .uae-2 {
-  background-image: url(../images/uae/uae-tour-02.jpg);
+  background-image: url(../images/uae/uae-tour-02.png);
 }
 
 .uae-3 {
-  background-image: url(../images/uae/uae-tour-03.jpg);
+  background-image: url(../images/uae/uae-tour-03.png);
 }
 
 @media (width: 950px) {

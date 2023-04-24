@@ -1,0 +1,96 @@
+.tour-component {
+  width: 236px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $site-white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    font-family: Nova;
+    font-size: 50px;
+  }
+  p {
+    font-family: Nova;
+    font-size: 30px;
+  }
+  .button-wrapper {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-family: RegularSans;
+    }
+  }
+}
+.israel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-01.jpg);
+}
+
+.america {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-02.jpg);
+}
+
+.aussie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-03.jpg);
+}
+
+.nz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-04.jpg);
+}
+
+.france {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-05.jpg);
+}
+
+.egypt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-06.jpg);
+}
+
+.japan {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-07.jpg);
+}
+
+.canada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-08.jpg);
+}
+
+.uae {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour-snap/tour-09.jpg);
+}
+
+@mixin site-button($bg: $site-blue, $pad: $button-padding, $radius: 10px) {
+  text-decoration: none;
+  color: $site-white;
+  background-color: $bg;
+  padding: $pad;
+  border-radius: $radius;
+  font-family: RegularSans;
+  text-align: center;
+}
+
+@media (max-width: 975px) {
+  .tour-component {
+    margin-bottom: 20px;
+    height: 304px;
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: RegularSans;
+  src: url(../css/fonts/Gill\ Sans\ Medium.otf);
+}
+
+@font-face {
+  font-family: LightSans;
+  src: url(../css/fonts/Gill\ Sans\ Light.otf);
+}
+
+@font-face {
+  font-family: ItalicSans;
+  src: url(../css/fonts/Gill\ Sans\ Italic.otf);
+}
+
+@font-face {
+  font-family: Condense;
+  src: url(../css/fonts/GillSans\ Condensed.otf);
+}
+
+// site structure variables
+$site-width: 1280px;
+$hero-height: 500px;
+$site-nav-width: 980px;
+$site-nav-height: 90px;
+$about-height: 850px;
+$about-width: 980px;
+$tour-height: 1270px;
+$tour-width: 980px;
+//site colors
+$site-white: #ffffff;
+$site-blue: #79addc;
+$site-black: #000000;
+
+//button styling
+$button-padding: 10px 20px;

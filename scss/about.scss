@@ -1,0 +1,80 @@
+.about-wrapper {
+  min-height: $about-height;
+  max-width: $about-width;
+  margin: 90px auto;
+  .title-wrapper {
+    margin-left: 20px;
+    margin-bottom: 95px;
+    h1 {
+      font-family: Nova;
+      font-size: 80px;
+      width: 125px;
+      border-bottom: 2px solid black;
+      margin-bottom: 32px;
+    }
+    p {
+      font-family: RegularSans;
+      font-size: 16px;
+    }
+  }
+  .client-wrapper {
+    margin-left: 20px;
+    max-width: 722px;
+    min-height: 429px;
+    .quote-container {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 37px;
+      .picture {
+        height: 100%;
+        width: 35%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .quote {
+        margin-left: 20px;
+        height: 100%;
+        width: 65%;
+        position: relative;
+
+        p {
+          font-family: ItalicSans;
+          font-size: 18px;
+          line-height: 19px;
+        }
+        .speaker {
+          position: absolute;
+          right: 70px;
+          width: 100px;
+
+          h1 {
+            color: $site-blue;
+
+            right: 20px;
+            font-size: 30px;
+            border-bottom: 0px;
+          }
+        }
+      }
+    }
+    h1 {
+      font-family: Nova;
+      font-size: 60px;
+      width: 300px;
+      border-bottom: 2px solid black;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.lady {
+  background-image: url(../images/client1.jpg);
+}
+
+.man {
+  background-image: url(../images/client2.jpg);
+}

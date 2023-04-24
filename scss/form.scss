@@ -1,0 +1,146 @@
+.two-form {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: RegularSans;
+  margin-bottom: 20px;
+  .short-half {
+    height: 100%;
+    width: 344px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: $site-blue;
+  }
+  .long-half {
+    height: 100%;
+    width: 453px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: $site-blue;
+  }
+}
+.one-form {
+  max-width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  font-family: RegularSans;
+  margin-bottom: 20px;
+  .form-container {
+    position: relative;
+    width: 75%;
+    .one-long {
+      height: 100%;
+      width: 100%;
+      padding-left: 10px;
+      border: 1px solid;
+      border-color: $site-blue;
+    }
+    .fa-calendar-days {
+      position: absolute;
+      top: 22px;
+      right: 20px;
+    }
+  }
+}
+.drop-forms {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  font-family: RegularSans;
+  margin-bottom: 20px;
+  .drop-wrapper {
+    width: 200px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .drop-box {
+      height: 100%;
+      width: 103px;
+      position: relative;
+      .drop-down {
+        height: 100%;
+        width: 100%;
+        padding-left: 28px;
+        border: 1px solid;
+        border-color: $site-blue;
+      }
+      .fa-caret-down {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.message {
+  height: 192px;
+  width: 100%;
+  margin-bottom: 37px;
+  .message-content {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 150px;
+    border: 1px solid;
+    border-color: $site-blue;
+  }
+}
+
+.submit {
+  width: 100%;
+  height: 60px;
+  background-color: $site-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  a {
+    text-decoration: none;
+    color: $site-white;
+    font-family: RegularSans;
+  }
+}
+
+@media (max-width: 1093px) {
+  .two-form {
+    margin-left: 10px;
+    .short-half {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .one-form {
+    min-width: 95%;
+    margin-left: 10px;
+    .form-container {
+      .one-long {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .drop-forms {
+    width: 95%;
+    margin-left: 10px;
+    .drop-wrapper {
+      .drop-box {
+        width: 40%;
+        margin-right: 10px;
+        .drop-down {
+          padding-left: 4px;
+        }
+      }
+    }
+  }
+}

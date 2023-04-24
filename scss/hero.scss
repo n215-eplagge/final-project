@@ -1,0 +1,51 @@
+.hero {
+  margin: 0 auto;
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .content-wrapper {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+      height: 300px;
+      width: 420px;
+      text-align: center;
+      color: $site-white;
+
+      h1 {
+        font-family: Nova;
+        font-size: 60pt;
+      }
+      p {
+        font-family: RegularSans;
+        font-size: 15pt;
+        margin-bottom: 48px;
+      }
+      .button-wrapper {
+        margin: 0 auto;
+        height: 40px;
+        width: 121px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          color: $site-white;
+          font-family: RegularSans;
+        }
+      }
+    }
+  }
+  .nav-wrapper {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.tours-wrapper {
+  min-height: $tour-height;
+  max-width: $tour-width;
+  margin: 50px auto;
+  .tour-banner {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+      url(../images/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-family: Nova;
+      font-size: 80px;
+      color: $site-white;
+    }
+  }
+  .tour-container {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 818px;
+    min-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .test {
+      height: 100px;
+      width: 100px;
+      background-color: maroon;
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button-wrapper {
+      a {
+        @include site-button($site-blue, $button-padding, 10px 10px);
+      }
+    }
+  }
+}

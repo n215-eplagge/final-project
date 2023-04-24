@@ -1,0 +1,24 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "This is a repo containing the final project of NEWM-N215.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n215-eplagge/final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n215-eplagge/final-project/issues"
+  },
+  "homepage": "https://github.com/n215-eplagge/final-project#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "sass": "^1.62.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
